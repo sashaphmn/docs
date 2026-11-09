@@ -5,7 +5,7 @@ description: View transactions, blocks, accounts, and token activity on the Temp
 ogImage: /og/2026-q4/og_2026-q4_docs_partners-explorers-and-debugging_title-image_v02.jpg
 ---
 
-import { partnerLogo, partnerLogoTempoExplorer, partnerLogoTenderly } from '../../../components/PartnerLogos.styles'
+import { partnerLogo, partnerLogoCodex, partnerLogoTempoExplorer, partnerLogoTenderly } from '../../../components/PartnerLogos.styles'
 
 # Block explorers: using the Tempo Explorer
 
@@ -22,5 +22,9 @@ Tempo's official Mainnet block explorer is available at [explore.tempo.xyz](http
 [Tenderly](https://tenderly.co) provides error tracking, EVM tracing, and offchain transaction simulation for Tempo contracts. Use it to analyze reverts and inspect gas usage before sending a transaction.
 
 Enable Tempo in the [Tenderly Dashboard](https://dashboard.tenderly.co/).
+
+## <span className={`partner-logo partner-logo--codex ${partnerLogo().className + ' ' + partnerLogoCodex().className}`} aria-hidden="true" />Codex Scan
+
+[Codex Scan](https://scan.codex.io/tempo) is a multichain block explorer with decoded transactions, contracts, tokens, and wallets, backed by Codex's indexed onchain data. View Tempo Mainnet activity at [scan.codex.io/tempo](https://scan.codex.io/tempo).
 
 Find additional tooling and account libraries in the [developer tools directory](/docs/partners/developer-tools).
